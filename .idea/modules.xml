@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/shopcar-service/src/main/main.iml" filepath="$PROJECT_DIR$/shopcar-service/src/main/main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shopcar-util/src/main/main1.iml" filepath="$PROJECT_DIR$/shopcar-util/src/main/main1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shopcar-web/src/main/main2.iml" filepath="$PROJECT_DIR$/shopcar-web/src/main/main2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shopcar.iml" filepath="$PROJECT_DIR$/shopcar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shopcar-service/shopcar-service.iml" filepath="$PROJECT_DIR$/shopcar-service/shopcar-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shopcar-util/shopcar-util.iml" filepath="$PROJECT_DIR$/shopcar-util/shopcar-util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shopcar-web/shopcar-web.iml" filepath="$PROJECT_DIR$/shopcar-web/shopcar-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shopcar-service/src/test/test.iml" filepath="$PROJECT_DIR$/shopcar-service/src/test/test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shopcar-util/src/test/test1.iml" filepath="$PROJECT_DIR$/shopcar-util/src/test/test1.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="shopcar-service" />
+        <module name="shopcar-util" />
+        <module name="shopcar-web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="shopcar" target="1.8" />
+      <module name="shopcar-service" target="1.8" />
+      <module name="shopcar-util" target="1.8" />
+      <module name="shopcar-web" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

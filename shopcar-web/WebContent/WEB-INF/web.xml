@@ -13,6 +13,12 @@
 		</init-param>
 		<load-on-startup>1</load-on-startup>
 	</servlet>
+	<servlet-mapping>
+		<servlet-name>DispatcherServlet</servlet-name>
+		<url-pattern>*.action</url-pattern>
+	</servlet-mapping>
+
+
 	<servlet>
 		<servlet-name>RandomCode</servlet-name>
 		<servlet-class>cn.mldn.util.RandomCode</servlet-class>
@@ -21,14 +27,18 @@
 		<servlet-name>RandomCode</servlet-name>
 		<url-pattern>/ImageCode</url-pattern>
 	</servlet-mapping>
-	<servlet-mapping>
-		<servlet-name>DispatcherServlet</servlet-name>
-		<url-pattern>*.action</url-pattern>
-	</servlet-mapping>
+
 	<filter>
 		<filter-name>EncodingFilter</filter-name>
 		<filter-class>cn.mldn.filter.EncodingFilter</filter-class>
 	</filter>
+	<filter-mapping>
+		<filter-name>EncodingFilter</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping>
+
+
+
 	<filter>
 		<filter-name>MemberFrontLoginFilter</filter-name>
 		<filter-class>cn.mldn.shopcar.filter.MemberFrontLoginFilter</filter-class>
@@ -37,9 +47,6 @@
 		<filter-name>MemberFrontLoginFilter</filter-name>
 		<url-pattern>/pages/front/center/*</url-pattern>
 	</filter-mapping>
-	<filter-mapping>
-		<filter-name>EncodingFilter</filter-name>
-		<url-pattern>/*</url-pattern>
-	</filter-mapping>
+
 
 </web-app>
